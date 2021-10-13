@@ -1,0 +1,36 @@
+CREATE TABLE IF NOT EXISTS users (first_name TEXT, last_name TEXT, username TEXT, email TEXT, password TEXT, college_name TEXT,register_number TEXT, program TEXT, department TEXT, semester INTEGER, mobile INTEGER, hostel TEXT, room_no INTEGER);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INSERT INTO users VALUES("Ayush", "Kumar", "ayush123", "ayush.srmist@gmail.com", "ayush123", "SRMIST", "RA1911030010099", "B.TECH", "CSE", 4, 9721854673, "Oori", 122); 
+
+
+
+INSERT INTO users VALUES("Akshay", "Anand", "a.akshay", "akshay.srmist@gmail.com", "akshay123", "SRMIST", "RA1911030010097", "B.TECH", "CSE", 4, 8674920045, "Paari", 104); 
+INSERT INTO users VALUES("Sai", "Phanidhar", "p.sai", "sai.srmist@gmail.com", "saiph123", "SRMIST", "RA1911030010101", "B.TECH", "CSE", 4, 8943512387, "Paari", 319); 
+
+
+CREATE TABLE IF NOT EXISTS hostels (name TEXT, warden TEXT, email TEXT);
+INSERT INTO hostels VALUES("Oori,"Oori hostel warden","oorihostel@gmail.com"); oori1234
+INSERT INTO hostels VALUES("Paari","paari hostel warden","parihostel3@gmail.com"); pari1234
+
+CREATE TABLE IF NOT EXISTS outpass (name TEXT,register_number TEXT, hostel TEXT,intime TEXT, outtime TEXT, reason TEXT,status TEXT);
